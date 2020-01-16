@@ -41,8 +41,12 @@
       * 약의 이름이 모두 한글이 아니며, 숫자를 포함, 비슷한 약 이름이 다수 존재하기 때문에 기존에 존재하는 알약 검색 사이트에서 검색결과의 정확도가 좋지 못했습니다.
       * 단점을 보완하기 위해 Edge gram, 자동완성기능을 통해 검색결과의 정확도를 높이고 유저에게 선택권을 부여함으로써 해결했습니다. 
      
+**7. 참고**<br>
+  * https://github.com/matterport/Mask_RCNN
+  * https://towardsdatascience.com/plug-and-play-object-detection-code-in-5-simple-steps-f1975804373e
+  * https://www.tornadoweb.org/en/stable/
 
-**7. 실행화면** <br>
+**8. 실행화면** <br>
     ![이미지검색2-1](https://user-images.githubusercontent.com/40975942/72503039-1eae5e00-387e-11ea-8725-9d134abb9a57.jpg)
     ![이미지검색2-2](https://user-images.githubusercontent.com/40975942/72503109-4a314880-387e-11ea-8474-b5f7dc0914d8.jpg)
     ![이미지검색2-3](https://user-images.githubusercontent.com/40975942/72503110-4a314880-387e-11ea-9100-7eac3fc124c9.jpg)
