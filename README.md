@@ -26,8 +26,20 @@
   * Labeling Tool : VGG Image Annotator
   * Data Source : 보건의료빅데이터개방시스템, 식약처
   * Environment : Eclipse (Maven), VS code, Jupyter Notebook, Colab 
+  
+**6. 성능**<br>
+  * **이미지 검색** <br>
+    * 학습 환경 : Google Colab GPU (10시간 학습 -> colab이 런타임을 정확히 12시간을 허용하지 않음)
+    * 64개 class(63 + BG), 각 알약당 10장씩 630개의 데이터를 536 epoch 학습 (loss : 0.08)
+    * 50여개의 class를 95% 이상의 정확도로 분류 <br>
+  * **텍스트 검색** <br>
+    * 약품명, 식별문자(전명, 후면), 모양, 색상으로 입력시 매우 준수한 검색 성능
+    * Elasticsearch index mapping : Edge ngram 사용
+      * 약의 이름이 모두 한글이 아니며, 숫자를 포함, 비슷한 약 이름이 다수 존재하기 때문에 기존에 존재하는 알약 검색 사이트에서 검색결과의 정확도가 좋지 못했다.
+      * 단점을 보완하기 위해 EdgeNgram, 자동완성기능을 통해 검색결과의 정확도를 높이고 유저에게 선택권을 부여함으로써 이를 해결하였다. 
+    
 
-** 6. 실행화면 ** <br>
+**7. 실행화면** <br>
     ![이미지검색2-1](https://user-images.githubusercontent.com/40975942/72503039-1eae5e00-387e-11ea-8725-9d134abb9a57.jpg)
     ![이미지검색2-2](https://user-images.githubusercontent.com/40975942/72503109-4a314880-387e-11ea-8474-b5f7dc0914d8.jpg)
     ![이미지검색2-3](https://user-images.githubusercontent.com/40975942/72503110-4a314880-387e-11ea-9100-7eac3fc124c9.jpg)
