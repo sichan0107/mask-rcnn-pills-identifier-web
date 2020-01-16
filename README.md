@@ -6,16 +6,18 @@
     - springboot 서버(8000)와 tornado 서버(5000), elasticsearch(9200) 서버가 동시에 켜져있어야합니다. <br>
     - 학습된 가중치파일(h5, json)은 thdtlcks369@gmail.com으로 메일 주시면 보내드리겠습니다 ^^<br>
     - cmd 콘솔에 pip install -r requirements.txt로 필요한 라이브러리를 설치해주세요.
+    - 기능 구현 시에 GOOGLE에서 제공하는 API 키 발급 필수 
+    - https://cloud.google.com/text-to-speech/docs/?hl=ko (GOOGLE 공식문서 참조)
 
 **2. 개발기간 & 개발배경 & Insight** <br>
   * 개발기간 : _19.12.10 ~ 20.01.14_ <br>
-  * 개발배경 : 의약품에 대한 정보가 필요할 때, 아주 간편하게 식별 검색과 이미지 검색 기능을 제공하는 웹사이트입니다. <br>
+  * 개발배경 : 의약품에 대한 정보가 필요할 때, 아주 간편하게 식별 검색과 이미지 검색, 읽어주기 기능을 제공하는 웹사이트입니다.<br>
   * Insight : Mask-RCNN으로 사진이나 영상의 여러 알약을 동시에 인식할 수 있으므로, 컴퓨터 비전과 하드웨어 구축을 통하여 의약품 자동분류기를 제작할 수 있을것입니다.
 
 **4. Architecture** <br>
   * Spring MVC Pattern
   * Tornado Web Framework
-  * Pills_Mask_RCNN
+  * Pills_Mask_RCNN ( hardly based on matterport's Mask-RCNN & Resnet101 )
   * Elasticsearch
   
 **5. Skill Set** <br>
@@ -29,9 +31,10 @@
   
 **6. 성능**<br>
   * **이미지 검색** <br>
-    * 학습 환경 : Google Colab GPU (10시간 학습 -> colab이 런타임을 정확히 12시간을 허용하지 않음)
-    * 64개 class(63 + BG), 각 알약당 10장씩 630개의 데이터를 536 epoch 학습 (loss : 0.08)
+    * 학습 환경 : Google Colab GPU (10시간 학습 -> Colab이 런타임을 정확히 12시간을 허용하지 않음)
+    * 64개 class(63 + BG), 각 알약당 10장씩 630개의 데이터를 536 epoch 학습 (loss : 0.08) -> Augmentation 적용으로 학습데이터량 증가
     * 50여개의 class를 95% 이상의 정확도로 분류 <br>
+    * 음성 지원 : GCP TTS API를 사용하여 검색된 약의 결과를 음성파일로 합성하여 동시에 출력 가능. (시력이 좋지 않은 사용자를 위해)
   * **텍스트 검색** <br>
     * 약품명, 식별문자(전명, 후면), 모양, 색상으로 입력시 매우 준수한 검색 성능
     * Elasticsearch index mapping : Edge ngram 사용
