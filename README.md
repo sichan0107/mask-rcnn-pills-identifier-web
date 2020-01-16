@@ -28,14 +28,10 @@
   * Environment : Eclipse (Maven), VS code, Jupyter Notebook, Colab 
 
 ** 6. 실행화면 ** <br>
-    * 이미지 검색
     ![이미지검색2-1](https://user-images.githubusercontent.com/40975942/72503039-1eae5e00-387e-11ea-8725-9d134abb9a57.jpg)
     ![이미지검색2-2](https://user-images.githubusercontent.com/40975942/72503109-4a314880-387e-11ea-8474-b5f7dc0914d8.jpg)
     ![이미지검색2-3](https://user-images.githubusercontent.com/40975942/72503110-4a314880-387e-11ea-9100-7eac3fc124c9.jpg)
     ![이미지검색2-4](https://user-images.githubusercontent.com/40975942/72503111-4a314880-387e-11ea-8f39-8ff8b94265e0.jpg)
-    <br>
-    
-    * 식별 검색
     ![텍스트검색1-1](https://user-images.githubusercontent.com/40975942/72503112-4ac9df00-387e-11ea-881b-a693ed2dc68b.jpg)
     ![텍스트검색1-2](https://user-images.githubusercontent.com/40975942/72503108-4a314880-387e-11ea-8047-2aff51962c48.jpg)
     ![텍스트검색1-3](https://user-images.githubusercontent.com/40975942/72503175-7947ba00-387e-11ea-88fe-f2a6701962e7.jpg)
