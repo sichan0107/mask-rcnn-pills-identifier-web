@@ -22,7 +22,7 @@
 **5. Skill Set** <br>
   * Front-end : Javascript, HTML, CSS, Bootstrap, Axios    
   * Back-end : SpringBoot,  Google Cloud Platform  
-  * DB : ElasticSearch, Kibana (v7.1.1), Pandas 
+  * DB & Preprocessing : ElasticSearch, Kibana (v7.1.1), Pandas
   * DL server : Tornado, TensorFlow v1.15.0, Keras, Opencv-Python, Cython  
   * Labeling Tool : VGG Image Annotator
   * Data Source : 보건의료빅데이터개방시스템, 식약처
