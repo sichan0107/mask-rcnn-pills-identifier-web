@@ -15,9 +15,9 @@
 
 **4. Architecture** <br>
   * Spring MVC Pattern
-  * Tornado Web Framework
+  * Tornado Web Framework ( Mask RCNN is on this server. )
   * Pills_Mask_RCNN ( based on matterport's Mask-RCNN & Resnet101 )
-  * Elasticsearch
+  * Elasticsearch ( Pill text data is in here. ) 
   
 **5. Skill Set** <br>
   * Front-end : Javascript, HTML, CSS, Bootstrap, Axios    
