@@ -46,7 +46,7 @@
   * https://www.tornadoweb.org/en/stable/
 
 **8. Screenshots** <br>
-<div>
+
     ![이미지검색2-1](https://user-images.githubusercontent.com/40975942/72503039-1eae5e00-387e-11ea-8725-9d134abb9a57.jpg)
     ![이미지검색2-2](https://user-images.githubusercontent.com/40975942/72503109-4a314880-387e-11ea-8474-b5f7dc0914d8.jpg)
     ![이미지검색2-3](https://user-images.githubusercontent.com/40975942/72503110-4a314880-387e-11ea-9100-7eac3fc124c9.jpg)
@@ -56,5 +56,5 @@
     ![텍스트검색1-3](https://user-images.githubusercontent.com/40975942/72503175-7947ba00-387e-11ea-88fe-f2a6701962e7.jpg)
     ![텍스트검색1-4](https://user-images.githubusercontent.com/40975942/72503176-79e05080-387e-11ea-89cc-e92083a92f15.jpg)
     ![텍스트검색1-5](https://user-images.githubusercontent.com/40975942/72503178-79e05080-387e-11ea-8b67-bb2c8697e9d6.jpg)
-  </div>
+  
     
